@@ -20,14 +20,29 @@
                 "content": [],
                 "contentController": {"@": "owner"}
             }
+        },
+        "Testing": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "Testing"},
+                "value": "Text"
+            }
+        },
+        "title": {
+            "prototype": "digit/ui/title.reel",
+            "properties": {
+                "element": {"#": "title"},
+                "value": "Employee Databse"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
+        <h1 data-montage-id="title"></h1>
         <ul data-montage-id="Employees">
-            <li></li>
+            <li data-montage-id="Testing"></li>
         </ul>
     </div>
 </body>
