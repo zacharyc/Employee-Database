@@ -13,5 +13,22 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         value: function Main() {
             this.super();
         }
+    },
+    
+    employeeValues: {
+        value: [
+            {
+                "name": "Bob Van Osten",
+                "department" : "engineering"
+            },
+            {
+                "name": "Sean Lynch",
+                "department" : "engineering"
+            },
+            {
+                "name": "Adam Evans",
+                "department" : "Management"
+            },
+        ]
     }
 });
