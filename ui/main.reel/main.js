@@ -28,7 +28,7 @@ exports.Main = Component.specialize(/** @lends Main# */ {
             {
                 "name": "Adam Evans",
                 "department" : "Management"
-            },
+            }
         ]
     }
 });
